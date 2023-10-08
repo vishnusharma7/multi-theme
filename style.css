@@ -195,6 +195,10 @@ a {
 
   }
   .container h5{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    
     padding: 0.5em;
     border-radius: 2em;
     position: absolute;
@@ -202,6 +206,9 @@ a {
     bottom: 1em;
     right: 1em;
     border: 1px solid var(--primary-color);
+  }
+  .container span{
+    color: var(--primary-color);
   }
   .container .btn{
     padding: 0.8em;
